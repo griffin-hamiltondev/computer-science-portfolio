@@ -33,7 +33,7 @@ class InventoryUI:
     
     def create_widgets(self):
         # Inventory List
-        self.tree = ttk.Treeview(self.root, columns=('ID', 'Item Name', 'Quantity', 'Price','Supplier', 'Last Updated'), show='headings')
+        self.tree = ttk.Treeview(self.root, columns=('ID', 'Item Name', 'Quantity', 'Price', 'Category','Supplier', 'Last Updated'), show='headings')
         self.tree.heading('ID', text='ID')
         self.tree.heading('Item Name', text='Item Name')
         self.tree.heading('Quantity', text='Quantity')
